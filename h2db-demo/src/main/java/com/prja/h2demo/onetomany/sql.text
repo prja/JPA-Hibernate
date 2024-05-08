@@ -1,0 +1,21 @@
+//Inner Join
+
+SELECT * FROM "employee" e, "department" d
+WHERE e."dpt_id"= d."id"
+
+
+//Left Outer Join
+
+
+SELECT *
+SELECT *
+FROM "employee"  e LEFT OUTER JOIN "department" d
+ON e."dpt_id"= d."id"
+
+
+//Right Outer Join
+
+SELECT *
+FROM "employee"  e RIGHT OUTER JOIN "department" d
+ON e."dpt_id"= d."id"
+
